@@ -59,7 +59,7 @@ clean-cache:
 	@$(call HELPTEXT,$@)
 
 	@$(ECHO) "$(ACTION)Remove and re-create the directory for the cache items$(NO_COLOR)"
-	[ ! -d cache ] || rm -rf cache/ 
+	[ ! -d cache ] || rm -rf cache/
 	install -d -m 777 cache/cimage cache/anax
 
 
