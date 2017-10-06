@@ -38,6 +38,22 @@ return [
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Site to typography")
             ],
+            "theme" => [
+                "text"  => t("theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Site to theme")
+            ],
+            "theme-selector" => [
+                "text"  => t("theme-selector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Site to theme-selector")
+            ],
+            "analysis" => [
+                "text"  => t("analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysis"),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -78,6 +94,16 @@ return [
                 "text"  => t("typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Site to typography")
+            ],
+            "theme" => [
+                "text"  => t("theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Site to theme")
+            ],
+            "theme-selector" => [
+                "text"  => t("theme-selector"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Site to theme-selector")
             ],
         ],
     ],
