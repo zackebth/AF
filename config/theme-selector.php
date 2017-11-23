@@ -108,6 +108,36 @@ return [
 
         "separator3" => "------------------------------------------------",
 
+        "Theme1"  => [
+            "title"      => "design element",
+            "class"      => "de1",
+            "stylesheets" => [
+                "css/de1.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "Theme2"  => [
+            "title"      => "design element",
+            "class"      => "de2",
+            "stylesheets" => [
+                "css/de2.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "Theme3"  => [
+            "title"      => "design element",
+            "class"      => "de3",
+            "stylesheets" => [
+                "css/de3.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+
+        "separator4" => "------------------------------------------------",
+
         "fun"       => [
             "title"      => "All fun, test and play, make it stand out!",
             "class"      => "fun",
