@@ -78,6 +78,36 @@ return [
 
         "separator2" => "------------------------------------------------",
 
+        "weight depth"  => [
+            "title"      => "design principle",
+            "class"      => "wd",
+            "stylesheets" => [
+                "css/wd.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "Kontrast"  => [
+            "title"      => "design principle",
+            "class"      => "wd",
+            "stylesheets" => [
+                "css/kontrast.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "Unity"  => [
+            "title"      => "design principle",
+            "class"      => "unity",
+            "stylesheets" => [
+                "css/unity.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+
+        "separator3" => "------------------------------------------------",
+
         "fun"       => [
             "title"      => "All fun, test and play, make it stand out!",
             "class"      => "fun",
